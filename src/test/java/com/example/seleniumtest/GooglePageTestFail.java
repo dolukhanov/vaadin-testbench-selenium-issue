@@ -2,6 +2,7 @@ package com.example.seleniumtest;
 
 import com.vaadin.testbench.BrowserTest;
 import com.vaadin.testbench.BrowserTestBase;
+import com.vaadin.testbench.Parameters;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest
 public class GooglePageTestFail extends BrowserTestBase
 {
+
+    static
+    {
+        Parameters.setHeadless( true );
+    }
 
     private WebDriver driver;
 
