@@ -19,7 +19,6 @@
 
     <properties>
         <java.version>21</java.version>
-        <selenium.version>4.27.0</selenium.version>
     </properties>
 
     <dependencies>
@@ -35,7 +34,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
+            <version>4.25.0</version>
         </dependency>
     </dependencies>
 
