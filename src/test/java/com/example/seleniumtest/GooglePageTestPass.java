@@ -1,9 +1,8 @@
 package com.example.seleniumtest;
 
-import com.vaadin.testbench.BrowserTest;
-import com.vaadin.testbench.BrowserTestBase;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
-public class GooglePageTest extends BrowserTestBase
+public class GooglePageTestPass
 {
 
     private WebDriver driver;
@@ -26,8 +25,7 @@ public class GooglePageTest extends BrowserTestBase
         driver = new ChromeDriver( options );
     }
 
-    //    @Test
-    @BrowserTest
+    @Test
     public void testGooglePageLoad()
     {
         // Navigate to Google
