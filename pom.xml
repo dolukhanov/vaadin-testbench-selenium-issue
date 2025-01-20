@@ -40,7 +40,7 @@
             <groupId>com.vaadin</groupId>
             <artifactId>vaadin-testbench-junit5</artifactId>
             <scope>test</scope>
-            <version>24.5.2</version>
+            <version>24.6.2</version>
         </dependency>
     </dependencies>
 
